@@ -22,22 +22,11 @@
    ```
 4. Access the website via [localhost:3000](localhost:3000)
 
-Make sure that 
+*Make sure to setup AWS Credentials before running the website. Refer [here](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-credentials-node.html) for the guide to settings credentials in Node.js. For IAM roles, you can use AWS Managed policy **ComprehendReadOnly** and **TranslateReadOnly**.*
 
 ## Upcoming features
 1. File upload / PDF read function
 2. Real-time translation
 3. ...
-
-## Meta
-
-Abdul Rifqi Al Abqary – rifqi.alabqary@gmail.com
-
-Distributed under the MIT license. See ``LICENSE`` for more information.
-
-[https://github.com/reefqi037/amazon-translate-demo](https://github.com/reefqi037/amazon-translate-demo)
-
-## License
-MIT
 
 [MIT](https://github.com/reefqi037/amazon-translate-demo/blob/master/LICENSE) © Abdul Rifqi Al Abqary
