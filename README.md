@@ -22,6 +22,13 @@
    ```
 4. Access the website via [localhost:3000](localhost:3000)
 
+Make sure that 
+
+## Upcoming features
+1. File upload / PDF read function
+2. Real-time translation
+3. ...
+
 ## Meta
 
 Abdul Rifqi Al Abqary – rifqi.alabqary@gmail.com
