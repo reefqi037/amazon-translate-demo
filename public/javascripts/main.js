@@ -64,13 +64,6 @@ function checkMaxByte(event, input) {
   const inputAreaByteLength = countByteLength(input.value);
   if (inputAreaByteLength > MAX_BYTELENGTH) {
     showSnackbar('Max byte length exceeded.', alertId.warning);
-    // warningAlert.style.display = 'block';
-    // warningAlert.innerHTML =
-    //   '<strong>Warning: </strong> Max byte length exceeded.' +
-    //   `<button type='button' class='close' data-hide='alert' aria-label='Close' onclick='hideAlert(${
-    //     alertId.warning
-    //   })'><span aria-hidden='true'>&times;</span></button>`;
-    // alertTimeout(TIMEOUT, alertId.warning);
   }
 }
 
@@ -107,13 +100,6 @@ async function translateText() {
   } catch (err) {
     console.log(err);
     showSnackbar(err.message, alertId.error);
-    // errorAlert.style.display = 'block';
-    // errorAlert.innerHTML =
-    //   `<strong>Error: </strong>${err.message}` +
-    //   `<button type='button' class='close' data-hide='alert' aria-label='Close' onclick='hideAlert(${
-    //     alertId.error
-    //   })'><span aria-hidden='true'>&times;</span></button>`;
-    // alertTimeout(TIMEOUT, alertId.error);
     outputArea.value = '';
   }
 }
