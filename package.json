@@ -1,0 +1,28 @@
+{
+  "name": "amazon-translate-demo",
+  "version": "0.0.1",
+  "description": "A sample website to demonstrate Amazon Translate service",
+  "private": true,
+  "author": {
+    "name": "Abdul Rifqi Al Abqary",
+    "email": "rifqi.alabqary@gmail.com",
+    "url": "https://github.com/reefqi037"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reefqi037/aws-translate-demo.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.401.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11"
+  }
+}
